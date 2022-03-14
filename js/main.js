@@ -93,4 +93,31 @@ $(document).ready(function(){
       $('.table-woods-item').removeClass('table-woods-active')
       $('.table-woods-item-3').addClass('table-woods-active')
     });
+    $('.overlay').on('click', function () {
+      $('.popup').removeClass('active')
+      $('.overlay').removeClass('active')
+      $('html').removeClass('scroll-lock')
+    });
+    $('.popup-escape').on('click', function () {
+      $('.popup').removeClass('active')
+      $('.overlay').removeClass('active')
+      $('html').removeClass('scroll-lock')
+    });
+    $('.popup button').on('click', function () {
+      $('.popup').removeClass('active')
+      $('.overlay').removeClass('active')
+      $('html').removeClass('scroll-lock')
+    });
+
+    $('.header-mid-row-flexwrap__call-order a').on('click', function () {
+      $('.popup-call').addClass('active')
+      $('.overlay').addClass('active')
+      $('html').addClass('scroll-lock')
+    });
+    $('.main-slider-box__item a').on('click', function () {
+      $('.popup-buy').addClass('active')
+      $('.overlay').addClass('active')
+      $('html').addClass('scroll-lock')
+    });
+    $(".tomask").mask("+7 (999) 999 - 99 - 99");
   });

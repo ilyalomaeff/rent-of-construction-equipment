@@ -1,0 +1,199 @@
+@media screen and (max-width:772px) {
+    .title {
+        font-size: 28px;
+    }
+    .section-title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .section-title {
+        font-size: 22px !important;
+    }
+    .title {
+        font-size: 22px !important;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .whywe-wrap__text {
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .whywe-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        row-gap: 53px;
+        column-gap: 70px;
+        .whywe-wrap__item {
+            margin: 0 !important;
+            max-width: 210px;
+            width: 210px;
+            &:nth-child(2) {
+                .whywe-wrap__text {
+                    max-width: 167px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+    .whywe {
+        padding-bottom: 70px;
+    }
+    .whywe-wrap__text {
+        min-height: 45px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .whywe-wrap {
+        column-gap: 0;
+        row-gap: 16px;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:564px) {
+    .whywe-wrap {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        max-width: 380px;
+    }
+    .whywe-wrap__item {
+        width: 150px !important;
+        img {
+            width: 80px;
+            height: 80px;
+        }
+        .whywe-wrap__line {
+            margin-top: 11px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+@media screen and (max-width:432px) {
+    .gallery .btn {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .bigform {
+        margin-top: -420px !important;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .whywe-wrap {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1162px) {
+    .popup {
+        padding: 20px 30px;
+        .popup-title {
+            margin-bottom: 15px;
+        }
+        input {
+            margin-bottom: 5px !important;
+            height: 45px !important;
+        }
+        form {
+            button {
+                height: 45px;
+                margin-top: 15px !important;
+            }
+            span {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:682px) {
+    .popup {
+        width: 90vw !important;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .popup {
+        .title {
+            font-size: 18px !important;
+        }
+    }
+}
+
+@media screen and (max-width:1267px) {
+    .dropdown {
+        left: -3.2vw;
+        width: 14.5vw;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .dropdown {
+        left: -2.8vw;
+    }
+}
+@media screen and (max-width:1100px) {
+    .dropdown {
+        left: -2.4vw;
+    }
+}
+@media screen and (max-width:1100px) {
+    .dropdown {
+        left: -2.2vw;
+    }
+}
+@media screen and (max-width:976px) {
+    .dropdown {
+        left: -1.7vw;
+    }
+}
+@media screen and (max-width:931px) {
+    .dropdown {
+        left: -1.3vw;
+    }
+}
+@media screen and (max-width:890px) {
+    .dropdown {
+        left: -2.3vw;
+    }
+}
+@media screen and (max-width:830px) {
+    .dropdown {
+        left: -2vw;
+        width: 14vw;
+    }
+}
+@media screen and (max-width:776px) {
+    .dropdown {
+        left: -1.6vw;
+    }
+}
+
+@media screen and (max-width:774px) {
+    .dropdown {
+        display: flex;
+        position: static;
+        width: 100%;
+        padding-left: 20px;
+        a {
+            width: 100%;
+            text-align: left;
+        }
+    }
+}
+
+.header-top-row.active {
+    overflow-y: auto;
+}
+

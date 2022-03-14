@@ -1,0 +1,296 @@
+@media screen and (max-width:1400px) {
+    .product-flexbox__info {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:1365px) {
+    .product-flexbox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-flexbox__info {
+        margin-left: 0px;
+        margin-top: 52px;
+        padding: 60px 60px 55px;
+        .product-flexbox__title {
+            font-size: 19px;
+            span {
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:680px) {
+    .product-flexbox__info {
+        background: none;
+        box-shadow: none;
+        width: 100%;
+        padding: 0;
+        .product-flexbox__title {
+            font-size: 18px;
+            span {
+                font-size: 18px;
+            }
+        }
+        ul {
+            margin-top: 24px;
+            margin-left: 0;
+        }
+        li {
+            font-size: 16px !important;
+            span {
+                font-size: 16px !important;
+            }
+        }
+        .ghost-btn {
+            margin-top: 22px;
+            margin-bottom: 17px;
+        }
+        .product-flexbox__buttons {
+            flex-direction: column;
+            row-gap: 17px;
+            a {
+                margin: 0;
+                width: 100%;
+                text-align: center !important;
+                justify-content: center;
+            }
+        }
+    }
+    .product-flexbox__big-slider {
+        .slick-slide {
+            width: 95vw !important;
+            margin: 0 auto;
+        }
+        img {
+            width: 100% !important;
+            height: 65vw;
+        }
+    }
+    .product-section .container {
+        position: relative;
+        .slick-arrow {
+            bottom: 16px !important;
+            svg {
+                width: 36px;
+                height: 36px;
+            }
+        }
+        .slick-prev3 {
+            left: 22vw;
+        }
+        .slick-next3 {
+            right: 22vw;
+        }
+    }
+    .product-flexbox__small-slider {
+        .slick-list {
+            width: calc(48vw + 16px) !important;
+
+        }
+        .slick-slide {
+            width: 16vw !important;
+            height: 13.4vw;
+            margin: 0;
+            margin-right: 8px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width:500px) {
+    .product-section .container {
+        position: relative;
+        .slick-arrow {
+            bottom: 14px !important;
+        }
+        .slick-prev3 {
+            left: 30vw;
+        }
+        .slick-next3 {
+            right: 30vw;
+        }
+    }
+}
+
+
+@media screen and (max-width:476px) {
+    .product-section .container {
+        .slick-arrow {
+            bottom: 10px !important;
+        }
+        .slick-prev3 {
+            left: 34vw;
+        }
+        .slick-next3 {
+            right: 34vw;
+        }
+    }
+}
+
+@media screen and (max-width:416px) {
+    .product-section .container {
+        .slick-arrow {
+            bottom: 6px !important;
+        }
+        .slick-prev3 {
+            left: 40vw;
+        }
+        .slick-next3 {
+            right: 40vw;
+        }
+    }
+}
+
+@media screen and (max-width:380px) {
+    .product-section .container {
+        .slick-arrow {
+            svg {
+                width: 27px;
+                height: 27px;
+            }
+            bottom: 8px !important;
+        }
+        .slick-prev3 {
+            left: 50vw;
+        }
+        .slick-next3 {
+            right: 50vw;
+        }
+    }
+}
+
+@media screen and (max-width:340px) {
+    .product-section .container {
+        .slick-arrow {
+            bottom: 6px !important;
+        }
+        .slick-prev3 {
+            left: 60vw;
+        }
+        .slick-next3 {
+            right: 60vw;
+        }
+    }
+    .product-flexbox__info {
+        .btn {
+            font-size: 16px;
+        }
+    }
+}
+
+@media screen and (max-width:1650px) {
+    .bigform-normal {
+        .container {
+            padding: 0 100px;
+        }
+    }
+}
+
+@media screen and (max-width:1690px) {
+    .bigform-normal {
+        .container {
+            padding: 0 50px;
+        }
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .bigform-normal {
+        .container {
+            padding: 0 15px;
+        }
+    }
+}
+
+@media screen and (max-width:1394px) {
+    .bigform.bigform-normal {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width:905px) {
+    .bigform.bigform-normal {
+        padding: 0;
+        margin-top: 70px;
+        .container {
+            background: #FFFFFF;
+            box-shadow: 0px 4px 100px 14px rgba(0, 0, 0, 0.06);
+            padding: 52px 41px 62px;
+        }
+    }
+}
+
+@media screen and (max-width:432px) {
+    .bigform.bigform-normal {
+        padding: 0;
+        margin-top: 50px !important;
+        .container {
+            background: #FFFFFF;
+            box-shadow: 0px 4px 100px 14px rgba(0, 0, 0, 0.06);
+            padding: 47px 15px 50px;
+        }
+    }
+}
+
+@media screen and (max-width:1333px) {
+    .table {
+        flex-direction: column;
+        .table__left {
+            width: 100%;
+        }
+        .table__right {
+            justify-content: center;
+            width: 100%;
+            border-top: none;
+            border-left: 1px solid #8a8a8a;
+        }
+    }
+}
+
+@media screen and (max-width:678px) {
+    .table__right {
+        padding: 0 10px 0 0;
+        img {
+            margin: 0;
+            margin-bottom: 23px;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .table__right {
+        flex-direction: column;
+        height: auto;
+        padding: 23px 0 36px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .table__left {
+        span {
+            font-size: 16px;
+            height: 46px;
+        }
+    }
+    .table__right {
+        img {
+            width: 145px;
+            height: 145px;
+        }
+    }
+}
+
+@media screen and (max-width:345px) {
+    .table__left {
+        span {
+            font-size: 15px;
+            height: 46px;
+        }
+    }
+}

@@ -1,0 +1,110 @@
+$color1: #FFAE04;
+$color2: #252525;
+$color3: #F8F8F8;
+$color4: #4B4B4B;
+$color5: #8A8A8A;
+
+@media screen and (max-width:894px) {
+    .main-slider-box__item {
+        padding-left: 150px;
+        padding-top: 27px;
+        span {
+            &:first-child {
+                font-size: 40px;
+            }
+            &:nth-child(2) {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:772px) {
+    header .header-bottom-row {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .text-offer {
+        margin-top: 70px;
+    }
+    .main-slider-box__item {
+        height: 242px;
+    }
+    .main-slider-box {
+        .slick-dots {
+            margin-top: 20px;
+        }
+    }
+    .feedback-slider-wrap__item img {
+        width: 275px;
+        height: 287px;
+    }
+    .feedback-slider-wrap {
+        .slick-list {
+            width: 585px !important;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (max-width:550px) {
+    .main-slider-box__item {
+        padding-top: 20px;
+        padding-left: 27px;
+        span {
+            &:first-child {
+                font-size: 30px;
+            }
+        }
+    }
+    .main-slider .slick-arrow {
+        display: none;
+    }
+    .feedback .slick-arrow {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .main-slider-box__item {
+        height: 214px;
+    }
+    .feedback-slider-wrap__item img {
+        width: 80vw;
+        height: 288px;
+    }
+    .feedback-slider-wrap {
+        .slick-list {
+            width: 80vw !important;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+    }
+    .feedback {
+        padding-top: 54px;
+        padding-bottom: 70px;
+        .slick-prev2 {
+            display: none !important;
+        }
+        .slick-next2 {
+            display: none !important;
+        }
+    }
+}
+
+
+@media screen and (max-width:340px) {
+    .main-slider-box__item {
+        padding-left: 10px;
+        padding-top: 10px;
+        span:nth-child(2) {
+            font-size: 15px;
+        }
+        height: 180px;
+    }
+    .section-title {
+        font-size: 18px;
+    }
+}

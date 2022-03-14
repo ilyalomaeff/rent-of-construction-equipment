@@ -17,6 +17,59 @@
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
+    <!-- Overlay -->
+    <div class="overlay"></div>
+    
+    <!-- Popups -->
+    <div class="popup popup-call">
+        <div class="popup-title">
+            <span class="title">
+                Заказать обратный звонок
+            </span>
+            <button class="popup-escape">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <form action="#">
+            <span>ФИО</span>
+            <input type="text" placeholder="Ломаев Илья Сергеевич">
+            <span>Компания</span>
+            <input type="text" placeholder="Название компании">
+            <span>Номер телефона</span>
+            <input type="text" placeholder="8-800-888-88-88">
+            <span>E-Mail</span>
+            <input type="text" placeholder="your@email.com">
+            <button type="submit">
+                Заказать звонок
+            </button>
+        </form>
+    </div>
+
+    <div class="popup popup-buy">
+        <div class="popup-title">
+            <span class="title">
+                Купить
+            </span>
+            <button class="popup-escape">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <form action="#">
+            <span>ФИО</span>
+            <input type="text" placeholder="Ломаев Илья Сергеевич">
+            <span>Компания</span>
+            <input type="text" placeholder="Название компании">
+            <span>Номер телефона</span>
+            <input type="text" placeholder="8-800-888-88-88">
+            <span>E-Mail</span>
+            <input type="text" placeholder="your@email.com">
+            <button type="submit">
+                Оставить заявку
+            </button>
+        </form>
+    </div>
     <div class="escape">
         <span></span>
         <span></span>
@@ -35,10 +88,24 @@
                             </a>
                         </li>
                         <span></span>
-                        <li>
+                        <li class="rel">
                             <a href="#">
                                 О компании 
                             </a>
+                            <div class="dropdown">
+                                <a href="#">
+                                    О компании 1
+                                </a>
+                                <a href="#">
+                                    О компании 2
+                                </a>
+                                <a href="#">
+                                    О компании 3
+                                </a>
+                                <a href="#">
+                                    О компании 4
+                                </a>
+                            </div>
                         </li>
                         <span></span>
                         <li>
@@ -377,7 +444,7 @@
                     <span>
                         Ваш телефон
                     </span>
-                    <input type="tel" placeholder="+7 ( ___ ) ___ - __ - __" required>
+                    <input class="tomask" type="tel" placeholder="+7 ( ___ ) ___ - __ - __" required>
                 </div>
                 <button class="btn" type="submit">
                     Отправить
@@ -476,6 +543,9 @@
 
     <!-- Slick.js -->
     <script src="js/slick.min.js"></script>
+
+    <!-- Mask input -->
+    <script src="js/jquery.maskedinput.min.js"></script>
 
     <!-- Main script -->
     <script src="js/main.min.js"></script>
