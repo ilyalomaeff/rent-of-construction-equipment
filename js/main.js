@@ -119,5 +119,19 @@ $(document).ready(function(){
       $('.overlay').addClass('active')
       $('html').addClass('scroll-lock')
     });
+    $.fn.setCursorPosition = function(pos) {
+      if ($(this).get(0).setSelectionRange) {
+        $(this).get(0).setSelectionRange(pos, pos);
+      } else if ($(this).get(0).createTextRange) {
+        var range = $(this).get(0).createTextRange();
+        range.collapse(true);
+        range.moveEnd('character', pos);
+        range.moveStart('character', pos);
+        range.select();
+      }
+    };
     $(".tomask").mask("+7 (999) 999 - 99 - 99");
+    $(".tomask").on('click', function() {
+      $(this).setCursorPosition(3);
+    })
   });
